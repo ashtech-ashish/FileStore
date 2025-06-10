@@ -33,7 +33,7 @@ DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/+w-Z-lpWYp2EzYzI1")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/CinephileSupport_bot")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
@@ -45,8 +45,8 @@ HELP_TXT = "<b><blockquote>A File Store Bot working for @beCinephile</blockquote
 ABOUT_TXT = "<b>\n╔════════════⦿\n├⋗ Developer : <code>λรђเรђ</code>\n├⋗ Language : <code>Python3</code>\n├⋗ Library : <code>Pyrogram</code>\n├⋗ Build Status : v2.7.1 [ Sᴛᴀʙʟᴇ ]\n╚═════════════════⦿</b>"
 #--------------------------------------------
 #--------------------------------------------
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first} !!\n\n<i> I am a file store + share bot. I can store private files in specified channel and users can access it by special links.</i></b>")
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>First join the below channels and then click on reload button to get your requested files.</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hey {first} !!\n\n<blockquote> I am a file store + share bot. I can store private files in specified channel and users can access it by special links!</blockquote></b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hey {first}\n\n<b>First join the below channels and then click on reload button to get your requested files.</b>")
 
 CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockquote>
 
