@@ -127,7 +127,7 @@ async def start_command(client: Client, message: Message):
 
         if FILE_AUTO_DELETE > 0:
             notification_msg = await message.reply(
-                f"<b>Note ‣</b>\n<i>Your above messages will be automatically deleted in  {get_exp_time(FILE_AUTO_DELETE)}. Please save or forward them somewhere..!</i>"
+                f"<b>Note ‣</b>\n<i>Your above messages will be automatically deleted in {get_exp_time(FILE_AUTO_DELETE)}. Please save or forward them somewhere..!</i>"
             )
 
             await asyncio.sleep(FILE_AUTO_DELETE)
